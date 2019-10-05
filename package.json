@@ -1,0 +1,13 @@
+{
+  "engines": {
+    "node": "^10.16.3",
+    "npm": "^6.11.3"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
