@@ -36,6 +36,13 @@ header {
 }
 
 img {
+  height: 150%;
+  padding-top: 5rem;
+  transition: all 0.75s ease 0.25s;
+}
+
+.shrink {
+  padding-top: 0;
   height: 100%;
 }
 
