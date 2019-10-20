@@ -109,6 +109,14 @@ body {
             text-align: center;
             width: 80%;
           }
+
+          .form-success,
+          .form-fail {
+            img {
+              margin: 7rem auto;
+              width: 1.5rem;
+            }
+          }
         }
 
         &.visible {
