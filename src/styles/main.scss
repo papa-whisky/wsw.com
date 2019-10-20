@@ -61,10 +61,27 @@ div.content {
     top: 100%;
     transition: all 0.75s ease 0.25s;
 
-    &.menu {
+    &#menu {
       background: rebeccapurple;
       overflow: scroll;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      .details-button,
+      .form-button {
+        text-align: center;
+        background: goldenrod;
+        width: 100%;
+        padding: 1rem 0;
+      }
+
+      .form-button {
+        margin: 1.75rem 0;
+      }
     }
+
     &.visible {
       top: 0;
     }
