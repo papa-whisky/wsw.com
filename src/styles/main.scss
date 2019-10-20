@@ -118,6 +118,17 @@ div.content {
           text-align: left;
         }
       }
+
+      .form-success {
+        display: none;
+      }
+
+      .form-success,
+      .form-fail {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
     }
 
     &.visible {
