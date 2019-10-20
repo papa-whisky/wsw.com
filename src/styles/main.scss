@@ -1,4 +1,5 @@
 @import "./hamburger.scss";
+@import "./spinner.scss";
 
 html,
 body {
@@ -119,12 +120,10 @@ div.content {
         }
       }
 
-      .form-success {
-        display: none;
-      }
-
       .form-success,
-      .form-fail {
+      .form-fail,
+      .form-loading {
+        display: none;
         width: 80%;
         margin: 0 auto;
         text-align: center;
