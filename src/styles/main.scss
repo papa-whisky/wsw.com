@@ -1,3 +1,5 @@
+@import "./hamburger.scss";
+
 html,
 body {
   height: 100%;
@@ -8,6 +10,7 @@ body {
 
 body {
   background: url(../images/background.jpeg) center / cover;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav {
@@ -45,5 +48,3 @@ header {
     height: 100%;
   }
 }
-
-@import "./hamburger.scss";
