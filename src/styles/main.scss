@@ -11,6 +11,7 @@ body {
 body {
   background: url(../images/background.jpeg) center / cover;
   font-family: "Open Sans", sans-serif;
+  overflow: hidden;
 }
 
 nav {
@@ -46,5 +47,25 @@ header {
   img.shrink {
     padding-top: 0;
     height: 100%;
+  }
+}
+
+div.content {
+  height: 100%;
+  position: relative;
+
+  section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    transition: all 0.75s ease 0.25s;
+
+    &.menu {
+      background: rebeccapurple;
+    }
+    &.visible {
+      top: 0;
+    }
   }
 }
