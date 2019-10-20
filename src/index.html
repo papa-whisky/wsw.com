@@ -29,7 +29,37 @@
           <div class="details-button">Many, <em>many</em> more details</div>
           <div class="form-button">RSVP</div>
         </section>
-        <section id="form"></section>
+        <section id="form">
+          <div class="form-wrapper">
+            <form name="rsvp" method="POST" data-netlify="true">
+              <input
+                type="text"
+                name="name"
+                placeholder="Hello, who are you?"
+              />
+              <input
+                type="text"
+                name="attending"
+                placeholder="Are you able to come?"
+              />
+              <input
+                type="text"
+                name="dietry-reqs"
+                placeholder="Anything you can’t eat?"
+              />
+              <input
+                type="text"
+                name="bus"
+                placeholder="Would you like a seat on the bus?"
+              />
+              <textarea
+                name="comments"
+                placeholder="Any further comments you wish to add."
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
         <section id="submitted"></section>
         <section id="details"></section>
       </div>

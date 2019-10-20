@@ -60,9 +60,9 @@ div.content {
     width: 100%;
     top: 100%;
     transition: all 0.75s ease 0.25s;
+    background: rebeccapurple;
 
     &#menu {
-      background: rebeccapurple;
       overflow: scroll;
       color: white;
       display: flex;
@@ -79,6 +79,19 @@ div.content {
 
       .form-button {
         margin: 1.75rem 0;
+      }
+    }
+
+    &#form {
+      .form-wrapper {
+        width: 80%;
+        margin: 0 auto;
+
+        input,
+        textarea,
+        button {
+          width: 100%;
+        }
       }
     }
 
