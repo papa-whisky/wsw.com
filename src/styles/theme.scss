@@ -1,37 +1,26 @@
 body {
   background: url(../images/background.jpeg) center / cover;
 
-  nav {
-    background: cornflowerblue;
-  }
-
   main {
-    background: palevioletred;
-
-    header {
-      background: mediumaquamarine;
-    }
-
     div.content {
       section {
-        background: rebeccapurple;
-
         &#menu {
-          color: white;
-
           .details-button,
           .form-button {
-            background: goldenrod;
+            background: rgba(255, 255, 255, 0.66);
           }
         }
 
-        &#form {
-          .form-wrapper {
-            button {
-              background: black;
-              color: white;
-            }
+        &#form .form-wrapper {
+          button {
+            background: black;
+            color: white;
           }
+        }
+
+        &#form,
+        &#details {
+          background: rgba(255, 255, 255, 0.66);
         }
       }
     }
