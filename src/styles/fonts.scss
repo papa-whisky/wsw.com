@@ -1,12 +1,19 @@
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 300;
 
-  main div.content section#form .form-wrapper {
-    input,
-    textarea,
-    button {
-      font-family: "Open Sans", sans-serif;
-      font-size: 0.8rem;
+  main div.content section {
+    h3 {
+      font-weight: 300;
+    }
+
+    &#form .form-wrapper {
+      input,
+      textarea,
+      button {
+        font-family: "Open Sans", sans-serif;
+        font-size: 0.8rem;
+      }
     }
   }
 }
