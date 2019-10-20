@@ -5,9 +5,12 @@ body {
   main div.content section {
     h3 {
       font-weight: 300;
+      font-size: 1.25rem;
     }
 
     &#form .form-wrapper {
+      font-size: 0.9rem;
+
       input,
       textarea,
       button {
