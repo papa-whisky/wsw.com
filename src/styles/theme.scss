@@ -1,0 +1,39 @@
+body {
+  background: url(../images/background.jpeg) center / cover;
+
+  nav {
+    background: cornflowerblue;
+  }
+
+  main {
+    background: palevioletred;
+
+    header {
+      background: mediumaquamarine;
+    }
+
+    div.content {
+      section {
+        background: rebeccapurple;
+
+        &#menu {
+          color: white;
+
+          .details-button,
+          .form-button {
+            background: goldenrod;
+          }
+        }
+
+        &#form {
+          .form-wrapper {
+            button {
+              background: black;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

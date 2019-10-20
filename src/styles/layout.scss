@@ -1,0 +1,120 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  nav {
+    height: 5%;
+    text-align: right;
+    width: 100%;
+
+    .hamburger {
+      margin: 5%;
+    }
+  }
+
+  main {
+    height: 95%;
+    margin: auto;
+    width: 90%;
+
+    header {
+      height: 25%;
+      text-align: center;
+      width: 100%;
+
+      img.title {
+        height: 150%;
+        padding-top: 5rem;
+      }
+
+      img.shrink {
+        height: 100%;
+        padding-top: 0;
+      }
+    }
+
+    div.content {
+      height: 75%;
+      position: relative;
+
+      section {
+        height: 100%;
+        overflow: scroll;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+
+        &#menu {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+
+          .details-button,
+          .form-button {
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+          }
+
+          .form-button {
+            margin: 1.75rem 0;
+          }
+        }
+
+        &#form {
+          .form-wrapper {
+            margin: 0 auto;
+            padding-bottom: 0.5rem;
+            text-align: center;
+            width: 80%;
+
+            h3,
+            p {
+              margin-bottom: 0;
+            }
+
+            form {
+              margin-top: 0.5rem;
+            }
+
+            input,
+            textarea,
+            button {
+              border: none;
+              box-sizing: border-box;
+              margin: 0.33rem 0;
+              outline: none;
+              padding: 0.5rem 0.7rem;
+              width: 100%;
+            }
+
+            button {
+              text-align: left;
+            }
+          }
+
+          .form-success,
+          .form-fail,
+          .form-loading {
+            display: none;
+            margin: 0 auto;
+            text-align: center;
+            width: 80%;
+          }
+        }
+
+        &.visible {
+          top: 0;
+        }
+      }
+    }
+  }
+}
