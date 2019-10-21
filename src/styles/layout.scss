@@ -3,13 +3,13 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  position: fixed;
   width: 100%;
 }
 
 body {
   box-sizing: border-box;
   overflow: hidden;
+  position: fixed;
 
   nav {
     height: 5%;
