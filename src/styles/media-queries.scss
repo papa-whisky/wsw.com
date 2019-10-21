@@ -1,0 +1,16 @@
+@media (min-width: 45em) {
+  body {
+    main {
+      width: 40em;
+
+      div.content {
+        section {
+          &#menu {
+            width: 30em;
+            margin: 0 5em;
+          }
+        }
+      }
+    }
+  }
+}
