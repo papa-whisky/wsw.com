@@ -56,10 +56,12 @@ body {
         &#menu {
           display: flex;
           flex-direction: column;
+          height: 50%;
           justify-content: flex-end;
 
           .details-button,
           .form-button {
+            cursor: pointer;
             padding: 1rem 0;
             text-align: center;
             width: 100%;
@@ -130,6 +132,10 @@ body {
 
         &.visible {
           top: 0;
+        }
+
+        &#menu.visible {
+          top: 50%;
         }
       }
     }
