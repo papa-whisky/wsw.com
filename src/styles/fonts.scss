@@ -18,5 +18,21 @@ body {
         font-size: 0.8rem;
       }
     }
+
+    &#details {
+      font-size: 0.9rem;
+
+      a {
+        color: black;
+      }
+
+      h2 {
+        font-weight: 300;
+      }
+
+      h4 {
+        font-weight: bold;
+      }
+    }
   }
 }

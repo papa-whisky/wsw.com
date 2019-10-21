@@ -130,6 +130,20 @@ body {
           }
         }
 
+        &#details {
+          box-sizing: border-box;
+          padding: 1rem 2rem;
+          text-align: center;
+
+          h4 {
+            margin: 1.5rem 0 0.5rem 0;
+          }
+
+          p {
+            margin: 0.5rem 0;
+          }
+        }
+
         &.visible {
           top: 0;
         }
