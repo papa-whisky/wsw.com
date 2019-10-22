@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   position: fixed;
+  -webkit-tap-highlight-color: transparent;
 
   nav {
     height: 5%;
