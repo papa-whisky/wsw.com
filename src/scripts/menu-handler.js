@@ -35,5 +35,5 @@ const showForm = () => {
 export default () => {
   menuBtn.onclick = toggleMenu;
   detailsBtn.onclick = showDetails;
-  formBtn.onclick = showForm;
+  // formBtn.onclick = showForm;
 };
