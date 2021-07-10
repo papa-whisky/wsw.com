@@ -38,7 +38,15 @@
               invitation.
             </p>
             <p>Please submit by September 12th, 2021.</p>
-            <form name="rsvp" method="POST" data-netlify="true">
+            <form
+              name="rsvp"
+              method="POST"
+              netlify-honeypot="address"
+              data-netlify="true"
+            >
+              <!-- For details on this spam filter field refer to:
+              https://docs.netlify.com/forms/spam-filters/#honeypot-field -->
+              <input type="text" name="address" class="hidden" />
               <input
                 type="text"
                 name="name"
@@ -48,6 +56,11 @@
                 type="text"
                 name="attending"
                 placeholder="Are you able to attend?"
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your email address."
               />
               <input
                 type="text"
