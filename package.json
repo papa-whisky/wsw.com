@@ -13,6 +13,7 @@
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-nightly.2387",
     "@parcel/transformer-sass": "^2.0.0-beta.2",
     "autoprefixer": "^10.2.6",
     "parcel": "^2.0.0-beta.2",
