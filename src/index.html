@@ -5,33 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Clare + Paul</title>
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,700&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="stylesheet" href="styles/main.scss" />
     <link rel="icon" href="src/images/favicon.png" />
-    <!-- <script src="scripts/main.js" defer></script> -->
+    <script src="scripts/main.js" type="module" defer></script>
   </head>
   <body>
-    <!-- <nav>
+    <nav>
       <button class="hamburger" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
       </button>
-    </nav> -->
+    </nav>
     <main>
       <header>
         <img class="title" src="images/title.png" alt="title" />
-        <p style="padding-top: 1rem">WE'LL BE BACK...</p>
-        <img
-          src="images/arnie.jpg"
-          alt="arnie"
-          style="padding-top: 0; height: 75%"
-        />
       </header>
-      <!-- <div class="content">
+      <div class="content">
         <section id="menu">
           <div class="details-button">Many, <em>many</em> more details</div>
           <div class="form-button">RSVP</div>
@@ -43,8 +37,16 @@
               When completing the form please include all names on your
               invitation.
             </p>
-            <p>Please submit by December 28th, 2019.</p>
-            <form name="rsvp" method="POST" data-netlify="true">
+            <p>Please submit by September 12th, 2021.</p>
+            <form
+              name="rsvp"
+              method="POST"
+              netlify-honeypot="address"
+              data-netlify="true"
+            >
+              <!-- For details on this spam filter field refer to:
+              https://docs.netlify.com/forms/spam-filters/#honeypot-field -->
+              <input type="text" name="address" class="hidden" />
               <input
                 type="text"
                 name="name"
@@ -54,6 +56,11 @@
                 type="text"
                 name="attending"
                 placeholder="Are you able to attend?"
+              />
+              <input
+                type="text"
+                name="email"
+                placeholder="Your email address."
               />
               <input
                 type="text"
@@ -93,10 +100,17 @@
         </section>
         <section id="details">
           <h2>Many, <em>many</em> more details</h2>
+          <h4>What's different?</h4>
+          <p>
+            New date & new hope! Please RSVP again, and include your email, for
+            this new date. Of course, in this new world, we won’t really know if
+            this will happen until the day of, but we will keep you all posted.
+            #FingersCrossed
+          </p>
           <h4>Date, Time, and Location</h4>
           <p>
-            Ceremony and reception at The Burrow in Denver, on Saturday 28th
-            March, 2020 at 4pm (please arrive at 3:30pm).
+            Ceremony and reception at The Burrow in Denver, on Saturday 11th
+            December, 2021 at 4pm (please arrive at 3:30pm).
           </p>
           <h4>Where the heck is Denver?</h4>
           <p>
@@ -118,9 +132,8 @@
           <p>
             A complimentary bus will take guests between Daylesford and The
             Burrow. The bus will depart from the Daylesford Post Office at
-            <b>3.00pm (updated time! Please don't be late)</b>. The bus will
-            leave The Burrow at 11pm and return guests to the Daylesford Post
-            Office.<br />
+            <b>3.00pm</b>. The bus will leave The Burrow at 11pm and return
+            guests to the Daylesford Post Office.<br />
             If you are staying at Jubilee Lake Holiday Park, please let us know,
             so we can arrange for the bus to drop you off.
           </p>
@@ -177,8 +190,8 @@
           </p>
           <h4>RSVP</h4>
           <p>
-            Please RSVP before Saturday, 28th December 2019 by completing the
-            form on this website.
+            Please RSVP by Sunday, 12th September 2021 by completing the form on
+            this website.
           </p>
           <h4>Anything else?</h4>
           <p>
@@ -195,7 +208,7 @@
             excited) about sharing this special day with you in Denver.
           </p>
         </section>
-      </div> -->
+      </div>
     </main>
   </body>
 </html>
